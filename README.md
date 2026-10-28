@@ -28,12 +28,6 @@ Do not try to switch accounts by calling `loginToken` or `switchAccountToken` yo
 
 The `/acct` commands look up Discord's internal Metro modules by hardcoded id. Those ids are specific to the Unbound loader build this was written against (`loader-v353.0_119349`) and can change with any Discord or loader update. If an id no longer matches, the commands throw `module N not found - Discord build changed`. The startup unlock itself does not use those ids, only the store lookup, so it may keep working when the commands do not. Issues and PRs are welcome, particularly to look the modules up by export name instead of id.
 
-## Caveats
-
-- Running a modded Discord client violates Discord's Terms of Service. Accounts can be actioned. Use at your own risk.
-- The feature is gated server-side by Discord's rollout. They could enforce or remove it at any time, which would break this plugin. Your accounts stay in Discord's own storage either way.
-- Only install addons you have read. A plugin has full access to your session.
-
 ## License
 
 [MIT](LICENSE)
