@@ -1,0 +1,9 @@
+{
+	"id": "user.account-switcher",
+	"name": "Account Switcher",
+	"description": "Unlocks Discord's built-in multi-account switcher on iOS.",
+	"authors": [{ "name": "n35da", "id": "0" }],
+	"version": "1.0.0",
+	"main": "index.js",
+	"platforms": ["ios"]
+}
